@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TestingJenkins
 //
-//  Created by jenkins on 04/07/18.
+//  Created by Himanshu Sharma on 04/07/18.
 //  Copyright © 2018 jenkins. All rights reserved.
 //
 
