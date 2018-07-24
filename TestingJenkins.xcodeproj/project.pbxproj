@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A6163E1E20FF0A7C00FDDC83 /* Jenkinsnew in Resources */ = {isa = PBXBuildFile; fileRef = A6163E1D20FF0A7C00FDDC83 /* Jenkinsnew */; };
+		A64C74932107016C00CFDB0D /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = A64C74912107016C00CFDB0D /* Appfile */; };
+		A64C74942107016C00CFDB0D /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = A64C74922107016C00CFDB0D /* Fastfile */; };
 		A65DBC8C20EC8A2300674D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DBC8B20EC8A2300674D81 /* AppDelegate.swift */; };
 		A65DBC8E20EC8A2300674D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DBC8D20EC8A2300674D81 /* ViewController.swift */; };
 		A65DBC9120EC8A2300674D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65DBC8F20EC8A2300674D81 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		A6163E1D20FF0A7C00FDDC83 /* Jenkinsnew */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsnew; sourceTree = "<group>"; };
+		A64C74912107016C00CFDB0D /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
+		A64C74922107016C00CFDB0D /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; };
 		A65DBC8820EC8A2300674D81 /* TestingJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65DBC8B20EC8A2300674D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A65DBC8D20EC8A2300674D81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A64C74902107014300CFDB0D /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				A64C74912107016C00CFDB0D /* Appfile */,
+				A64C74922107016C00CFDB0D /* Fastfile */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
 		A65DBC7F20EC8A2300674D81 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		A65DBC8A20EC8A2300674D81 /* TestingJenkins */ = {
 			isa = PBXGroup;
 			children = (
+				A64C74902107014300CFDB0D /* fastlane */,
 				A6163E1D20FF0A7C00FDDC83 /* Jenkinsnew */,
 				A65DBC8B20EC8A2300674D81 /* AppDelegate.swift */,
 				A65DBC8D20EC8A2300674D81 /* ViewController.swift */,
@@ -126,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64C74942107016C00CFDB0D /* Fastfile in Resources */,
 				A65DBC9620EC8A2300674D81 /* LaunchScreen.storyboard in Resources */,
+				A64C74932107016C00CFDB0D /* Appfile in Resources */,
 				A65DBC9320EC8A2300674D81 /* Assets.xcassets in Resources */,
 				A6163E1E20FF0A7C00FDDC83 /* Jenkinsnew in Resources */,
 				A65DBC9120EC8A2300674D81 /* Main.storyboard in Resources */,
